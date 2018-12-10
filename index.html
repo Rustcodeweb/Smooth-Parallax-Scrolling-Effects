@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parallax Effect</title>
+  <style type="text/css">
+    *{
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+    #bgbox1{
+      background-image: url('bg1.jpg');
+    }
+    #bgbox2{
+      background-image: url('bg2.jpg');
+    }
+    #bgbox3{
+      background-image: url('bg3.jpg');
+    }
+    #bgbox1,#bgbox2,#bgbox3{
+      width: 100%;
+      height: 100vh;
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="bgbox1">
+  </div>
+
+  <center style="background:#000;">
+    <h2 style="color:white;">Scroll up and down to see Parallax Effect.</h2>
+  </center>
+
+  <div id="bgbox2">
+    <h1>NO JAVASCRIPT</h1>
+  </div>
+
+  <center style="background:#fff;">
+    <h2 style="color:black;">Scroll Down!</h2>
+  </center>
+
+  <div id="bgbox3">
+    <h1>COOL EFFECT</h1>
+  </div>
+</body>
+</html>
