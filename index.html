@@ -9,43 +9,65 @@
       box-sizing: border-box;
     }
     #bgbox1{
-      background-image: url('bg1.jpg');
+      background-image:url(bg2.jpg);
     }
     #bgbox2{
-      background-image: url('bg2.jpg');
-    }
+      background-image:url(bg5.jpg);
+    } 
     #bgbox3{
-      background-image: url('bg3.jpg');
+      background-image:url(bg3.jpg);
     }
     #bgbox1,#bgbox2,#bgbox3{
-      width: 100%;
-      height: 100vh;
-      background-position: center;
-      background-size: cover;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
+      width:100%;
+      height:100vh;
+      background-position:center;
+      background-size:cover;
+      background-attachment:fixed;      
+      background-repeat:no-repeat;
+    }
+    h1{
+      position: relative;
+      top: 300px;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 24px;
+      letter-spacing:3px;
+      text-align:center;
+      color:white;
+      display:inline-flex;
+      vertical-align:middle;
+      background-color: black;
+      padding: 18px 36px;
+      border: 1px solid white;
+      background-color: transparent;
+    }
+    h2{
+      padding:80px;
+      font-size: 18px;
     }
   </style>
 </head>
-
 <body>
-  <div id="bgbox1">
-  </div>
 
-  <center style="background:#000;">
-    <h2 style="color:white;">Scroll up and down to see Parallax Effect.</h2>
-  </center>
+   <div id="bgbox1">
+      <h1>PARALLAX</h1>
+   </div>
 
-  <div id="bgbox2">
-    <h1>NO JAVASCRIPT</h1>
-  </div>
+   <center style="background:#000;">
+      <h2 style="color: white;">Scroll up and down to see Parallax effect</h2>
+   </center>
 
-  <center style="background:#fff;">
-    <h2 style="color:black;">Scroll Down!</h2>
-  </center>
+   <div id="bgbox2">
+      <h1>NO JAVASCRIPT</h1>
+   </div>
 
-  <div id="bgbox3">
-    <h1>COOL EFFECT</h1>
-  </div>
+   <center style="background:#fff;">
+      <h2 style="">SCROLL DOWN!</h2>
+   </center>
+
+   <div id="bgbox3">
+      <h1>COOL EFFECT</h1>
+   </div>
+
 </body>
 </html>
